@@ -545,6 +545,27 @@ section:nth-of-type(even) { background: var(--bg-alt); transition: background-co
   background: var(--accent);
   color: #fff;
 }
+.project .desc {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+.tag-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: auto;
+  padding: 0;
+}
+.tag {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 4px 11px;
+}
 .mada-badge {
   align-self: flex-start;
   display: inline-flex;
@@ -558,7 +579,6 @@ section:nth-of-type(even) { background: var(--bg-alt); transition: background-co
   text-transform: uppercase;
   padding: 5px 12px;
   border-radius: 999px;
-  margin-top: auto;
 }
 
 /* ============ Education ============ */
